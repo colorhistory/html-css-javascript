@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+#nav li{
+    float: left;
+}
+
+#nav li a {
+    color: #000000;
+    text-decoration: none;
+    padding-top: 4px;
+    display: block;
+    width: 97px;
+    height: 22px;
+    text-align: center;
+    background-color: #eeeeee;
+    margin-left: 2px;
+}
+
+#nav li a:link{
+    background-color: bisque;
+    color: black;
+}
+
+#nav li a:visited{
+    background-color: chartreuse;
+    color: #000000;
+}
+
+#nav li a:hover{
+    background-color: red;
+    color: #ffffff;
+}
+
+#nav {
+    background-color: #cccccc;
+}
+

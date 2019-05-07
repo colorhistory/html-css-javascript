@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#layout{
+    margin: 0 auto;
+    width: 408px;
+}
+
+#left{
+    background-color: #cccccc;
+    border: 2px solid #bb6868;
+    width: 200px;
+    height: 300px;
+    float: left;
+}
+
+#right{
+    background-color: #cccccc;
+    border: 2px solid #333333;
+    width: 200px;
+    height: 300px;
+    float: left;
+}
