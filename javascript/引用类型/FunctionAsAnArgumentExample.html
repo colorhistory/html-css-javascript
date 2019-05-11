@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Function as an Argument Example</title>
+		<script type="text/javascript">
+			function callSomeFunction(someFunction, someArgument){
+				return someFunction(someArgument);
+			}
+			
+			function add10(num){
+				return num + 10;
+			}
+			
+			var result1 = callSomeFunction(add10, 10);
+			alert(result1);
+			
+			function getGreeting(name){
+				return "hello, " + name;
+			}
+			
+			var result2 = callSomeFunction(getGreeting, "Xiaohai");
+			alert(result2);
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
