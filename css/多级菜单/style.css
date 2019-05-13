@@ -1,0 +1,66 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	list-style: none;
+}
+
+li {
+	float: left;
+	width: 160px;
+}
+
+li ul {
+	display: none;
+	top: 20px;
+}
+
+li:hover ul,
+li.over ul {
+	display: block;
+}
+
+ul li a {
+	display: block;
+	font-size: 12px;
+	border: 1px solid #CCCCCC;
+	padding: 3px;
+	text-decoration: none;
+	color: #777;
+}
+
+ul li a:hover {
+	background-color: #F5F4F4;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	width: 130px;
+	border-bottom: 1px solid #CCCCCC;
+	font-size: 12px;
+}
+
+ul li {
+	position: relative;
+}
+
+li ul {
+	position: absolute;
+	left: 129px;
+	top: 0px;
+	display: none;
+}
+
+ul li a{
+	display: block;
+	text-decoration: none;
+	color: #777777;
+	background: #FFFFFF;
+	padding: 5px;
+	border: 1px solid #CCCCCC;
+	border-bottom: 0px;
+}

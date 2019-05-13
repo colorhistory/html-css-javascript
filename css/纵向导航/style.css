@@ -1,0 +1,31 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	list-style: none;
+}
+
+#category {
+	width: 100px;
+	border-right: 1px solid #c5c6c4;
+	border-bottom: 1px solid #C5C6C4;
+	border-left: 1px solid #C5C6C4;
+}
+
+#category h1{
+	margin: 0px;
+	padding: 4px;
+	font-size: 12px;
+	font-weight: bold;
+	border-top: 1px solid #C5C6C4;
+	background-color: #f5f4f4;
+}
+
+#category h2{
+	margin: 0px;
+	padding: 4px;
+	font-size: 12px;
+	font-weight: normal;
+}

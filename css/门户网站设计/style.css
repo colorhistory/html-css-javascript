@@ -1,0 +1,40 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	list-style: none;
+}
+
+.navGroup li{
+	float: left;
+	text-align: center;
+	margin: 0;
+}
+
+.navGroup li a {
+	display: block;
+	color: #FF0000;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px 11px 1px 13px;
+	margin: 0;
+}
+
+.navGroup li a:hover{
+	color: #ccff66;
+}
+
+#nav1 {
+	background-color: #7d7d7d;
+	border-top: 1px solid #a5a5a5;
+}
+
+#nav1 a:hover {
+	background-color: #727272;
+}
+
+#nav2 a:hover{
+	background-color: #393939;
+}
